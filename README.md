@@ -118,8 +118,8 @@ The overall system can be represented as:
              │       SENSORS         │
              │                       │
              │ Temperature           │
-             │ Vibration             │
-             │ Current               │
+             │ Humidity           │
+             │ Voltage               │
              │ Other Sensors         │
              └───────────┬───────────┘
                          │
@@ -165,10 +165,9 @@ Sensors continuously measure physical parameters of the machine.
 Examples:
 
 - Temperature
-- Vibration
-- Motor current
+- Voltage 
 - Humidity
-- Speed
+- Fire 
 
 Step 2 – Data Acquisition
 
@@ -245,10 +244,10 @@ The exact hardware configuration can be modified according to the target machine
 Typical components include:
 
 Component| Purpose
-ESP32 / Microcontroller| Main controller and data processing
+ESP8266 / Microcontroller| Main controller and data processing
 Temperature Sensor| Monitor machine temperature
-Vibration Sensor| Detect abnormal vibration
-Current Sensor| Monitor motor/equipment current
+Fire Sensor| Detect fire
+Voltage Sensor| Monitor motor/equipment voltage 
 Power Supply| Supply required operating voltage
 Connecting Wires| Electrical connections
 Breadboard / PCB| Circuit implementation
@@ -305,14 +304,9 @@ High temperature can indicate:
 - Electrical problems
 
 
-3. Current
+3. Voltage 
 
-Abnormal current consumption may indicate:
-
-- Overloading
-- Motor problems
-- Increased mechanical resistance
-- Electrical faults
+Abnormal voltage.
 
 ---
 
@@ -392,7 +386,7 @@ A typical connection concept is:
 Temperature Sensor
         │
         ▼
-     ESP32
+     ESP8266
         │
         ├──────── Wi-Fi ────────► Dashboard
         │
@@ -473,10 +467,12 @@ Temperature
 Temperature: 42.5 °C
 Status: NORMAL
 
+Humidity 
 
-Current
+fire
 
-Motor Current: 2.1 A
+Voltage 
+
 Status: NORMAL
 
 Alerts
@@ -538,9 +534,9 @@ Test 2 – High Temperature
 Increase the temperature above the configured threshold and verify that a warning is generated.
 
 
-Test 3 – High Current
+Test 3 – High voltage 
 
-Test the current monitoring system under an increased load condition where it is safe and appropriate to do so.
+Test the voltage monitoring system under an increased load condition where it is safe and appropriate to do so.
 
 Test 4 – Communication Failure
 
