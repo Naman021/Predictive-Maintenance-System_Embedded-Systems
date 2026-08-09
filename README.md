@@ -10,30 +10,30 @@ The system combines embedded systems, sensors, IoT communication, data monitorin
 
 📌 Table of Contents
 
-- "Overview" (#-overview)
-- "Problem Statement" (#-problem-statement)
-- "Objectives" (#-objectives)
-- "Key Features" (#-key-features)
-- "System Architecture" (#-system-architecture)
-- "How the System Works" (#-how-the-system-works)
-- "Hardware Components" (#-hardware-components)
-- "Software and Technologies" (#-software-and-technologies)
-- "Parameters Monitored" (#-parameters-monitored)
-- "Fault Detection Concept" (#-fault-detection-concept)
-- "Project Workflow" (#-project-workflow)
-- "Hardware Connections" (#-hardware-connections)
-- "Firmware" (#-firmware)
-- "Dashboard" (#-dashboard)
-- "Installation and Setup" (#-installation-and-setup)
-- "Project Structure" (#-project-structure)
-- "Testing" (#-testing)
-- "Applications" (#-applications)
-- "Advantages" (#-advantages)
-- "Limitations" (#-limitations)
-- "Future Improvements" (#-future-improvements)
-- "Learning Outcomes" (#-learning-outcomes)
-- "Author" (#-author)
-- "License" (#-license)
+- Overview
+- Problem Statement 
+- Objectives
+- Key Features
+- System Architecture
+- How the System Works
+- Hardware Components
+- Software and Technologies
+- Parameters Monitored
+- Fault Detection Concept
+- Project Workflow
+- Hardware Connections
+- Firmware 
+- Dashboard
+- Installation and Setup
+- Project Structure 
+- Testing
+- Applications
+- Advantages
+- Limitations
+- Future Improvements 
+- Learning Outcomes
+- Author
+- License
 
 ---
 
