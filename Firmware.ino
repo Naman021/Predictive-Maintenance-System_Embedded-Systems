@@ -7,8 +7,8 @@
 // Wi-Fi
 // =====================================================
 
-const char* ssid = "YOUR_WIFI_NAME";
-const char* password = "YOUR_WIFI_PASSWORD";
+const char* ssid = "Predictive maintenance system";
+const char* password = "123456798";
 
 // =====================================================
 // DHT11
